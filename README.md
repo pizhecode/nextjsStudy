@@ -7,13 +7,10 @@
 ## 启动
 
 ```bash
+启动
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+打包
+npm run build  
 ```
 
 ### 安装组件
