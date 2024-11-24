@@ -1,11 +1,10 @@
-import Footer from "../../components/Footer";
-import Pizhe from '../../components/Pizhe'
-export default function pages() {
-  return (
-    <>
-    <div>3306</div>
-    <Pizhe title="皮喆12asd3"/>
-    <Footer/>
-    </>
-  );
-}
+import React from 'react';
+import { Button } from 'antd';
+
+const Index = () => (
+  <div >
+    <Button type="primary">Button</Button>
+  </div>
+);
+
+export default Index;

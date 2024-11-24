@@ -1,4 +1,5 @@
-export  default function About(){
+//介绍/关于我们
+export  default function about(){
     return(
         <>
              <h1>about</h1>

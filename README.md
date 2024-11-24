@@ -1,8 +1,7 @@
 ## NextJS
 
 > node18.20
->
-> 自学ing
+
 
 ## 启动
 
@@ -18,6 +17,8 @@ npm run build
 ```bash
 npm install react@18 react-dom@18
 npm install antd --save
-```
+"sass": "^1.32.13"
+ output: 'export',//打包成静态文件
 
 
+``

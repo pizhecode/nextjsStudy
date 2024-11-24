@@ -1,0 +1,79 @@
+/*
+ *  公共样式
+ */
+
+/* 字体加粗 */
+.fwb{font-weight:bold;} .fw500{font-weight:500;} .fw600{font-weight:600;} .fw700{font-weight:700;} .fw800{font-weight:800;} .fw900{font-weight:900;}
+/* 文字对齐方式 */
+.tac{text-align:center;}.tal{text-align:left;}.tar{text-align:right;}
+/* 浮动 */
+.fl{float:left;} .fr{float:right;} .fc{clear:both;} .ffc:after{content:'';display:block;height:0;visibility:hidden;clear:both;}
+/* 字体自动换行 */
+.fwbba{word-break:break-all}
+/* 溢出隐藏 */
+.oh{overflow:hidden;}
+.ohoy{overflow-y: auto;} .ohox{overflow-x: auto;}
+.ohd1{max-height:40rpx;overflow:hidden;word-break:break-all;/*break-all(允许在单词内换行)*/text-overflow:ellipsis;/*超出部分省略号*/display:-webkit-box;/**对象作为伸缩盒子模型显示**/-webkit-box-orient:vertical;/**设置或检索伸缩盒对象的子元素的排列方式**/-webkit-line-clamp:1;/**显示的行数**/}
+.ohd2{max-height:80rpx;overflow:hidden;word-break:break-all;/*break-all(允许在单词内换行)*/text-overflow:ellipsis;/*超出部分省略号*/display:-webkit-box;/**对象作为伸缩盒子模型显示**/-webkit-box-orient:vertical;/**设置或检索伸缩盒对象的子元素的排列方式**/-webkit-line-clamp:2;/**显示的行数**/}
+/* 鼠标样式 */
+.cup{cursor:pointer;}
+/* 定位 */
+.pf{position: fixed;} .pr{position: relative;} .pa{position: absolute;}
+.zf1{z-index:-1;}
+.z0{z-index:0;}.z1{z-index:1;}.z2{z-index:2;}.z3{z-index:3;}.z4{z-index:4;}.z5{z-index:5;}.z6{z-index:6;}.z7{z-index:7;}.z8{z-index:8;}.z9{z-index:9;}.z10{z-index:10;}
+.t0{top: 0;}.r0{right: 0;}.l0{left: 0;}.b0{bottom: 0;}
+/* 自身的一半 */
+.tftf505{transform: translate(-50%,-50%);}
+/* 控制状态栏高度 */
+.status_bar{height:var(--status-bar-height);width:100%;}
+/* 居中 */
+.mauto{margin:auto;}
+/* 盒子 */
+.db{display:block;}
+.df{display:flex;}/* 盒子 */
+.flex1{flex: 1;}
+.fdr{flex-direction:row;}            /* 排列方向 - 从左到右边*/
+.fdrr{flex-direction:row-reverse;}   /* 排列方向 - 从右向左*/
+.fdc{flex-direction:column;}         /* 排列方向 - 从上到下*/
+.fdcr{flex-direction:column-reverse;}/* 排列方向 - 从下到上*/
+
+.fwn{flex-wrap:nowrap;}              /* 换行 - 不换行 - 默认*/
+.fww{flex-wrap:wrap;}                /* 换行 - 上下 - 正常*/
+
+.jcfs{justify-content:flex-start;}   /* 左右对齐 - 左对齐*/
+.jcfe{justify-content:flex-end;}     /* 左右对齐 - 右对齐*/
+.jcc{justify-content:center;}        /* 左右对齐 - 居中*/
+.jcsb{justify-content:space-between;}/* 左右对齐 - 两端对齐*/
+.jcsa{justify-content:space-around;} /* 左右对齐 - 平分*/
+
+.aifs{align-items:flex-start;}       /* 上下对齐 - 居上*/
+.aife{align-items:flex-end;}         /* 上下对齐 - 居下*/
+.aic{align-items:center;}            /* 上下对齐 - 居中*/
+.aib{align-items:baseline;}          /* 上下对齐 - 文字对齐*/
+.ais{align-items:stretch;}           /* 上下对齐 - 上下顶满*/
+
+.acfs{align-content:flex-start;}     /* 盒子对齐 - 居上*/
+.acfe{align-content:flex-end;}       /* 盒子对齐 - 居下*/
+.acc{align-content:center;}          /* 盒子对齐 - 居中*/
+.acsb{align-content:space-between;}  /* 盒子对齐 - ,平分*/
+.acs{align-content:stretch;}         /* 盒子对齐 - 铺满*/
+
+.dfg0{flex-grow:0}/*假设默认三个项目中前两个个项目都是0，最后一个是1，最后的项目会沾满剩余所有空间*/
+.dfg1{flex-grow:1}/*假设默认三个项目中前两个个项目都是0，最后一个是1，最后的项目会沾满剩余所有空间*/
+.dfs0{flex-shrink:0}/*取值：默认1，用于决定项目在空间不足时是否缩小，默认项目都是1，即空间不足时大家一起等比缩小；注意，即便设置了固定宽度，也会缩小*/
+.dfs1{flex-shrink:1}/*但如果某个项目flex-shrink设置为0，则即便空间不够，自身也不缩小。*/
+.fx1{flex:1}
+.dhh{word-break:break-all;}
+
+/* 删除线 */
+.tdl_lt{text-decoration-line:line-through}
+.td_lt{text-decoration: line-through;}
+
+/* 程序主题色*/
+.csys{color: #ff7200;} .bcsys{background-color: #ff7200;} .b1sys{border:1rpx solid #ff7200;}  .bb1sys{border-bottom:1rpx solid #ff7200;}
+.csys1{color: #fff2f1;} .bcsys1{background-color: #fff2f1;} .bb1sys1{border-bottom:1rpx solid #fff2f1;}
+
+
+/*
+*   每个页面样式
+*/
