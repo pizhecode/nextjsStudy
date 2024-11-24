@@ -1,6 +1,6 @@
 ## NextJS
 
-> node18.20
+> nodev20.11.0
 
 
 ## 启动
@@ -19,6 +19,5 @@ npm install react@18 react-dom@18
 npm install antd --save
 "sass": "^1.32.13"
  output: 'export',//打包成静态文件
-
 
 ``

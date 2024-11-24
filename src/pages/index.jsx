@@ -1,10 +1,8 @@
 import React from 'react';
-import { Button } from 'antd';
-
-const Index = () => (
-  <div >
-    <Button type="primary">Button</Button>
+import Headers from '../../components/Headers'
+const App = () => (
+  <div>
+    <Headers></Headers>
   </div>
 );
-
-export default Index;
+export default App;
